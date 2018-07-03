@@ -1,0 +1,84 @@
+body {
+  background-color: rgb(15, 50, 201);
+  /* font-family: cursive; */
+  font-family: aktiv-grotesk, sans-serif;
+  font-size: 20px;
+  color: white;
+}
+.top-nav-bar {
+  /* rgb(15, 50, 201) */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: stretch;
+  background-size: contain;
+  height: 200px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.company-name-left {
+  flex: 1;
+}
+
+.inner-button {
+  flex: 1;
+  text-align: center;
+}
+
+.nav-inner-box {
+  display: flex;
+  flex: 2;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: stretch;
+}
+
+.company-tag {
+  font-size: 56px;
+}
+.company-intro {
+  height: 200px;
+  width: 600px;
+  font-size: 16px;
+  padding: 40px;
+}
+.nav-outer-box {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-flow: wrap;
+  /* width: ; */
+}
+
+.middle-bar {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: stretch;
+}
+.company-exploring {
+  flex: 1;
+  text-align: center;
+}
+
+.bottom-left {
+  font-size: 11px;
+}
+
+.bottom-bar {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+}
